@@ -1,0 +1,57 @@
+
+.footer {
+    font-weight: 200;
+    margin-top: 1em;
+    padding: 1em;
+    text-align: center;
+    background-image: url("../images/background.jpeg");
+    background-size: cover;
+    color: white;
+}
+
+.p5 {
+    font-size: large;
+}
+
+.p4 {
+    font-size: medium;
+}
+
+.p3 {
+    font-size: small;
+}
+
+.p2 {
+    font-size: x-small;
+}
+
+.general-card {
+    background: url("../images/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    padding: 2em;
+    border-radius: 2em;
+    box-shadow: 0 0.5em 1em 0 rgba(0,0,0,0.2);
+    align-items: center;
+    margin: 2em;
+}
+
+body::-webkit-scrollbar {
+    width: 0.5em;
+}
+   
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(7, 31, 59, 0.664);
+}
+   
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(30, 40, 133);
+    outline: 1px solid rgb(12, 36, 59);
+}
+
+body {
+    background-color: rgb(25, 31, 49);
+    color: white;
+}

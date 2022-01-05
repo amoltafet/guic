@@ -1,0 +1,21 @@
+  
+  .Scroll {
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .square {
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    margin-top: 53rem;
+  }
+  
+  .title {
+    color: white;
+    margin-top: 5rem;
+  }

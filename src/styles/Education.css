@@ -1,0 +1,50 @@
+.card {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    text-align: center;
+    font-weight: 200;
+    transition: 0.3s;
+    padding: 1.0em;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.edu-title {
+    text-align: center;  
+    font-weight: 400; 
+}
+
+.edu-para {
+    text-align: center;
+    padding: 1em;
+    font-weight: 200;
+    --animate-delay: 2s;
+}
+
+.edu-btn {
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    padding: .5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-weight: 200;
+    background-color: transparent;
+    border: 1px solid rgba(45, 83, 255, 0.822);
+    border-radius: 1.5em;
+}
+
+.edu-btn:hover {
+    background-color: rgba(45, 83, 255, 0.822);
+    color: white;
+}
+
+
+
+

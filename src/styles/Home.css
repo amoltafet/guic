@@ -1,0 +1,170 @@
+
+
+.form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+} 
+
+.spacer {
+    margin-top: 1em;
+}
+
+.muter {
+    text-align: left;
+}
+
+.hero-title {
+    font-weight: 400;
+}
+
+.hero-subtitle {
+    font-weight: 200;
+}
+
+.hero {
+    position: flex;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background: url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 5em;
+}
+
+.hero-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 5rem;
+    margin-left: 3em;
+    margin-top: 7em;
+}
+
+.hero-image {
+    border-radius: 4em;
+    width: 25%;
+    margin-left: 20em;
+}
+
+.form-card {
+    color: white;
+    text-align: center;
+    background: url("../images/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 1em;
+    border-radius: 1.5em;
+    box-shadow: 0 0.5em 1em 0 rgba(0,0,0,0.2);
+    align-items: center;
+    margin: 2em;
+    animation-delay: 5s;
+    animation: jello 2s;
+}
+
+.welcome-card {
+    color: white;
+    background: url("../images/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 1em;
+    border-radius: 1.5em;
+    box-shadow: 0 0.5em 1em 0 rgba(0,0,0,0.2);
+    align-items: center;
+    margin: 2em;
+    animation-delay: 5s;
+    animation: jello 2s;
+}
+
+.benefits-card {
+    background: url("../images/welcome.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: rgb(255, 255, 255);
+    padding: 1em;
+    box-shadow: 0 0.5em 1em 0 rgba(0,0,0,0.2);
+    align-items: center;
+    text-align: center;
+    font-size: larger;
+}
+
+.benefits-list {
+    width: 15em;
+    height: 4em;
+    text-align: left;
+    list-style-type: none;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+
+.b_icon {
+    width: 2.5em;
+    height: 2em;
+    margin-right: 1em;
+    background-color: black;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 1em;
+}
+
+.benefits-list:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    
+}
+
+.submit {
+    background-color: #00a8ff;
+    color: white;
+    border-radius: 0.5em;
+    box-shadow: 0 0.5em 1em 0 rgba(0,0,0,0.2);
+    align-items: center;
+}
+
+.submit:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.hero-card {
+    background-color: white;
+    padding: 2em;
+    border-radius: 1.5em;
+    box-shadow: 0 0.5em 1em 0 rgba(0,0,0,0.2);
+    align-items: center;
+    margin: 1em;
+}
+
+.page-btn {
+    width: 100%;    
+    font-weight: 200;
+    background-color: #ffffff15;
+    border: solid;
+    border-width: 1px;
+    border-color: #00a8ff;
+    color: white;
+    border-radius: 1.5em;
+    align-items: center;
+    padding: 1em;
+}
+
+.page-btn:hover {
+    background-color: #00a8ff;
+    color: white;
+}
+
+.button_view {
+    margin-top: 8em; 
+    position: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,42 @@
+.member_chart {
+    padding: 1%;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.logo_main {
+    padding-left: 10em;
+    width: 50%;
+    height: auto;
+    margin: 1 auto;
+    padding-bottom: 1%;
+}
+
+.about {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 200;
+    text-align: center;
+}
+
+.team {
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.img-thumbnail {
+    width: auto;
+    height: 200px;
+    border-radius: 10em;
+}
+
+.about-card {
+    background-position: center center;
+    color: black;
+    padding: 2em;
+    border-radius: 2em;
+    box-shadow: 0 0.5em 1em 0 rgba(0,0,0,0.2);
+    align-items: center;
+    margin: 2em;
+}
