@@ -29,7 +29,7 @@ function Portfolio() {
     transition={{
       duration: 1,
     }}>
-    <div classname="portfolio">
+    <div className="portfolio">
         <Hero title='PORTFOLIO'/>
         <motion.h1 initial={{ y: -200, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}

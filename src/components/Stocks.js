@@ -27,11 +27,11 @@ class Stocks extends React.Component {
 
     componentDidMount() {
         if(this.state.status === 'loading...') {
-            if(localStorage.getItem(this.state.stock) === null) {
+            if(localStorage.getItem(this.state.symbol) === null) {
                 this.getStockPrice();
             } else {
-                let price = localStorage.getItem(this.state.stock);
-                let lastRefresh = localStorage.getItem(this.state.stock+'_lastRefresh');
+                let price = localStorage.getItem(this.state.symbol);
+                let lastRefresh = localStorage.getItem(this.state.symbol+'_lastRefresh');
                 this.setState({
                     price: '$'+ parseFloat(price),
                     lastRefresh: lastRefresh,
