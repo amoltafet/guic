@@ -4,10 +4,11 @@ class Stocks extends React.Component {
 
     constructor(props) {
         super(props);
-        let tmp = props.stock;
+        let tmp = props.symbol;
         if(localStorage.getItem(tmp) === null) {
             this.state = {
-                stock: tmp,
+                symbol: props.symbol,
+                api_key: props.api,
                 price: 'loading...',
                 lastRefresh: 'loading...',
                 status: 'loading...'
@@ -16,7 +17,7 @@ class Stocks extends React.Component {
             let price = localStorage.getItem(tmp);
             let refresh = price.split('%')[1];
             this.state = {
-                stock: tmp,
+                symbol: tmp,
                 price: price.split('%')[0],
                 status: 'success',
                 lastRefresh: refresh
@@ -46,9 +47,10 @@ class Stocks extends React.Component {
     }    
 
     getStockPrice() {    
-        let stockSymbol = this.state.stock;
+        let stockSymbol = this.state.symbol;
         stockSymbol = stockSymbol;
-        let url = `https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=${stockSymbol}&apikey=MC8YBMDW70JP2X51`;
+        let api = this.state.api_key;
+        let url = `https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=${stockSymbol}&apikey=${api}`;
 
     fetch(url).then(response => response.json().then
     (data => {
@@ -56,7 +58,7 @@ class Stocks extends React.Component {
         let stock = data['Global Quote'];
         let price = stock['05. price'];
         let lastRefresh = stock['07. latest trading day'];
-        lastRefresh = lastRefresh.substring(0, 10);
+        //lastRefresh = lastRefresh.substring(0, 10);
         price = parseFloat(price);
         price = "$" + price;
         this.setState({
