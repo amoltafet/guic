@@ -1,4 +1,5 @@
 {
+  "homepage": "https://amoltafet.github.io/guic",
   "name": "investment-club",
   "version": "0.1.0",
   "private": true,
@@ -23,11 +24,11 @@
     "react-intersection-observer": "^8.33.1",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
-    "react-scroll-motion": "^0.2.1",
-    "web-vitals": "^2.1.2",
-    "yahoo-stock-api": "^1.0.11"
+    "react-scroll-motion": "^0.2.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -55,5 +56,8 @@
   "main": "index.js",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }

@@ -51,6 +51,11 @@
     margin-left: 20em;
 }
 
+.hero-image:hover {
+    
+    transition: 200ms;
+}
+
 .form-card {
     color: white;
     text-align: center;

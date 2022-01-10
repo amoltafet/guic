@@ -2,13 +2,12 @@ import React from "react";
 import '../styles/About.css';
 import member_chart from '../images/member_chart.png';
 import Member from "../components/Member";
-import { motion, useAnimation } from "framer-motion";
+import { motion } from "framer-motion";
 import Hero from "../components/Hero";
 import Footer from "../components/Footer";
 
 function About() {
 
-    const animationControl = useAnimation();
 
     return (
         <motion.div 

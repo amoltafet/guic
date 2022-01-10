@@ -48,7 +48,6 @@ class Stocks extends React.Component {
 
     getStockPrice() {    
         let stockSymbol = this.state.symbol;
-        stockSymbol = stockSymbol;
         let api = this.state.api_key;
         let url = `https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=${stockSymbol}&apikey=${api}`;
 

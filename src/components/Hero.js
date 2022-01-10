@@ -1,7 +1,8 @@
-import React, {useState} from "react";
+import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Navigation from "./Navigation";
 import logo from '../images/logo.jpeg';
+import { Link } from "react-router-dom";
 
 class Hero extends React.Component {
     
@@ -53,7 +54,6 @@ class Hero extends React.Component {
                                 duration: 3,
                                 ease: "easeInOut",
                                 times: [0, 0.3, 0.5, 0.8, 1],
-                                repeat: Infinity,
                                 repeatDelay: 1
                             }}/>
 
@@ -77,21 +77,20 @@ class Hero extends React.Component {
                     <div className="button_view">
                         <div className="row">
                             <div className="col">
-                            <motion.button 
+                            <Link to="/Portfolio"><motion.button 
                             initial={{ y: -100, opacity: 0 }}
                             animate={{ y: 0, opacity: 1 }}
                             transition={{ delay: 2, duration: 2 }}
                             className="page-btn"
-                            onClick={() => {window.location.href = "/Portfolio"}}>Portfolio</motion.button>
+                            >Portfolio</motion.button></Link>
                             </div>  
                             <div className="col">
-                            <motion.button 
+                            <Link to="/Education"><motion.button 
                             initial={{ y: 100, opacity: 0 }}
                             animate={{ y: 0, opacity: 1 }}
                             transition={{ delay: 2, duration: 2 }}
                             className="page-btn"
-                            onClick={() => {
-                                window.location.href = "/Education";}}>Education</motion.button>
+                            >Education</motion.button></Link>
                             </div>      
                         </div>
                     </div>        
