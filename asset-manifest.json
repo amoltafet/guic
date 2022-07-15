@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/guic-website/static/css/main.854d7d27.css",
-    "main.js": "/guic-website/static/js/main.cf9c7dd1.js",
-    "static/media/hero.jpg": "/guic-website/static/media/hero.77a5e04e69772b8e4c75.jpg",
-    "static/media/member_chart.png": "/guic-website/static/media/member_chart.65dd4aec2ff8bac00e4c.png",
-    "static/media/background.jpeg": "/guic-website/static/media/background.65ac3207c1bb8f209720.jpeg",
-    "static/media/erich.jpeg": "/guic-website/static/media/erich.7c042d8b28f09d443b5d.jpeg",
-    "index.html": "/guic-website/index.html",
-    "main.854d7d27.css.map": "/guic-website/static/css/main.854d7d27.css.map",
-    "main.cf9c7dd1.js.map": "/guic-website/static/js/main.cf9c7dd1.js.map"
+    "main.css": "/projects/guic-website/static/css/main.8d867f35.css",
+    "main.js": "/projects/guic-website/static/js/main.69b9c680.js",
+    "static/media/hero.jpg": "/projects/guic-website/static/media/hero.77a5e04e69772b8e4c75.jpg",
+    "static/media/member_chart.png": "/projects/guic-website/static/media/member_chart.65dd4aec2ff8bac00e4c.png",
+    "static/media/background.jpeg": "/projects/guic-website/static/media/background.65ac3207c1bb8f209720.jpeg",
+    "static/media/erich.jpeg": "/projects/guic-website/static/media/erich.7c042d8b28f09d443b5d.jpeg",
+    "index.html": "/projects/guic-website/index.html",
+    "main.8d867f35.css.map": "/projects/guic-website/static/css/main.8d867f35.css.map",
+    "main.69b9c680.js.map": "/projects/guic-website/static/js/main.69b9c680.js.map"
   },
   "entrypoints": [
-    "static/css/main.854d7d27.css",
-    "static/js/main.cf9c7dd1.js"
+    "static/css/main.8d867f35.css",
+    "static/js/main.69b9c680.js"
   ]
 }
